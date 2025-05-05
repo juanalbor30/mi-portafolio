@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ocupaciones</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 transition-colors duration-300">
+
+
+  <header class="sticky top-0 z-50 bg-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-indigo-600 font-bold text-2xl">JUAN ALBOR</h1>
+
+
+      <input type="checkbox" id="menu-toggle" class="hidden peer" />
+      <label for="menu-toggle" class="text-gray-700 cursor-pointer text-2xl sm:hidden block">
+        <i class="fas fa-bars"></i>
+      </label>
+
+
+      <nav class="hidden peer-checked:flex sm:flex flex-col sm:flex-row sm:items-center absolute sm:static top-16 left-0 w-full sm:w-auto bg-white sm:bg-transparent px-6 sm:px-0 py-4 sm:py-0 gap-4 sm:gap-6 z-40 transition-all duration-300">
+        <a href="index.html" class="text-gray-700 hover:text-indigo-600 transition">Inicio</a>
+        <a href="ocupaciones.html" class="text-gray-700 hover:text-indigo-600 font-semibold transition">Ocupaciones</a>
+        <a href="contacto.html" class="text-gray-700 hover:text-indigo-600 transition">Contacto</a>
+        <button id="btn" class="px-3 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-500 transition">🎨Cambiar color</button>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="max-w-7xl mx-auto py-12 px-6">
+
+
+    <section class="space-y-10">
+
+      <div class="bg-gray-100 p-6 rounded-lg shadow transition hover:shadow-lg duration-300">
+        <h3 class="text-indigo-600 text-xl font-semibold mb-2">Profesional</h3>
+        <p>Soy estudiante de Ingeniería de Sistemas con gran interés en el desarrollo web y la gestión de bases de datos.</p>
+        <p class="mt-2 hidden">
+          Actualmente curso 4to semestre de mi carrera, donde he trabajado en proyectos individuales y colaborativos utilizando herramientas como HTML, CSS, JavaScript. Me apasiona aprender tecnologías nuevas y aplicarlas a soluciones prácticas. Además, tengo experiencia trabajando como bartender durante las temporadas vacacionales, un entorno exigente que me ha ayudado a fortalecer habilidades blandas como la atención al cliente, el trabajo bajo presión y la gestión del tiempo. También he desarrollado pequeños proyectos para personas y negocios locales, lo cual ha enriquecido mi visión del mundo laboral real.
+        </p>
+        <button class="toggle-btn bg-indigo-600 hover:bg-indigo-500 text-white py-2 px-4 rounded mt-4">Ver más información</button>
+      </div>
+
+
+      <div class="bg-gray-100 p-6 rounded-lg shadow transition hover:shadow-lg duration-300">
+        <h3 class="text-indigo-600 text-xl font-semibold mb-2">Estilo de Vida</h3>
+        <p>Soy una persona responsable y dedicada, que valora el compromiso y el equilibrio personal.</p>
+        <p class="mt-2 hidden">
+          Me esfuerzo por mantener una rutina organizada que me permita avanzar en mis metas académicas, laborales y personales. Me gusta levantarme temprano, planificar mis días y buscar tiempo para el descanso, el aprendizaje y la salud física. Aunque valoro la productividad, también comprendo la importancia de la salud mental, así que practico actividades que me ayudan a desconectarme del estrés. Disfruto del aprendizaje continuo, de los espacios para conversar con personas que me inspiren y de llevar un estilo de vida balanceado, enfocado en el crecimiento a largo plazo.
+        </p>
+        <button class="toggle-btn bg-indigo-600 hover:bg-indigo-500 text-white py-2 px-4 rounded mt-4">Ver más información</button>
+      </div>
+
+
+      <div class="bg-gray-100 p-6 rounded-lg shadow transition hover:shadow-lg duration-300">
+        <h3 class="text-indigo-600 text-xl font-semibold mb-2">Hobbies</h3>
+        <p>Me encanta la fotografía, trotar, el vóley y los videojuegos. También disfruto mucho de la lectura y el voluntariado.</p>
+        <p class="mt-2 hidden">
+          En mi tiempo libre, suelo salir a caminar con mi cámara y capturar paisajes naturales o escenas urbanas interesantes. Practico vóley semanalmente, lo que me ayuda a mantenerme activo y a compartir con amigos. Soy aficionado a los videojuegos cooperativos, que me sirven como medio para relajarme y socializar. Además, leo libros de desarrollo personal y tecnología. Uno de mis espacios favoritos es el voluntariado en el Zoológico de Barranquilla, donde participo en actividades educativas y de concientización ambiental con niños y jóvenes.
+        </p>
+        <button class="toggle-btn bg-indigo-600 hover:bg-indigo-500 text-white py-2 px-4 rounded mt-4">Ver más información</button>
+      </div>
+    </section>
+
+
+    <section class="mt-16 bg-indigo-50 py-12 px-4 sm:px-8 rounded-lg shadow-inner">
+      <h2 class="text-center text-indigo-600 text-3xl mb-10">Fortalezas y Habilidades Personales</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="bg-white p-4 rounded-lg text-center shadow">✅ Comunicación asertiva</div>
+        <div class="bg-white p-4 rounded-lg text-center shadow">🤝 Trabajo en equipo</div>
+        <div class="bg-white p-4 rounded-lg text-center shadow">🧠 Pensamiento crítico</div>
+        <div class="bg-white p-4 rounded-lg text-center shadow">🎯 Orientación a objetivos</div>
+        <div class="bg-white p-4 rounded-lg text-center shadow">🧩 Adaptabilidad</div>
+        <div class="bg-white p-4 rounded-lg text-center shadow">🔧 Resolución de problemas</div>
+      </div>
+    </section>
+
+
+    <section class="mt-16 py-12">
+      <h2 class="text-center text-indigo-600 text-3xl mb-10">Tecnologías y Herramientas</h2>
+      <div class="flex flex-wrap justify-center gap-4 px-4">
+        <div class="bg-indigo-100 text-indigo-600 px-6 py-3 rounded-lg shadow">HTML</div>
+        <div class="bg-indigo-100 text-indigo-600 px-6 py-3 rounded-lg shadow">CSS</div>
+        <div class="bg-indigo-100 text-indigo-600 px-6 py-3 rounded-lg shadow">JavaScript</div>
+        <div class="bg-indigo-100 text-indigo-600 px-6 py-3 rounded-lg shadow">Canva</div>
+        <div class="bg-indigo-100 text-indigo-600 px-6 py-3 rounded-lg shadow">SQL Básico</div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+    const btn = document.getElementById("btn");
+
+    function getContrastYIQ(hexcolor) {
+      hexcolor = hexcolor.replace("#", "");
+      const r = parseInt(hexcolor.substr(0, 2), 16);
+      const g = parseInt(hexcolor.substr(2, 2), 16);
+      const b = parseInt(hexcolor.substr(4, 2), 16);
+      const yiq = (r * 299 + g * 587 + b * 114) / 1000;
+      return yiq >= 128 ? "black" : "";
+    }
+
+    btn.addEventListener("click", () => {
+      let hexColor = "#";
+      for (let i = 0; i < 6; i++) {
+        hexColor += hex[Math.floor(Math.random() * hex.length)];
+      }
+
+      const textColor = getContrastYIQ(hexColor);
+      document.body.style.backgroundColor = hexColor;
+      document.body.style.color = textColor;
+    });
+
+    document.querySelectorAll(".toggle-btn").forEach(button => {
+      button.addEventListener("click", () => {
+        const hiddenText = button.previousElementSibling;
+        hiddenText.classList.toggle("hidden");
+        button.textContent = hiddenText.classList.contains("hidden") ? "Ver más información" : "Ver menos información";
+      });
+    });
+  </script>
+
+</body>
+</html>
